@@ -71,6 +71,9 @@
                             <state key="normal" title="تخطي">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="skipButton:" destination="-1" eventType="touchUpInside" id="7xc-sg-486"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.2833540142" green="0.6065357924" blue="0.39996984600000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -29,6 +29,12 @@ class BoardVC: UIViewController {
         super.viewDidLoad()
         setUpUi()
     }
+    
+    @IBAction func skipButton(_ sender: UIButton) {
+        let vc = BoardSecondVC()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+    }
     func setUpUi()  {
         collectionView.register(UINib(nibName: "BoardCVC", bundle: nil), forCellWithReuseIdentifier: "BoardCVC")
         pageControl.numberOfPages = titles.count

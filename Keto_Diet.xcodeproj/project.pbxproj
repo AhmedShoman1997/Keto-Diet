@@ -11,6 +11,8 @@
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
 		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
+		4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3DB672586D42D009585DB /* BoardSecondVC.swift */; };
+		4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3DB682586D42D009585DB /* BoardSecondVC.xib */; };
 		4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E625852EE200D7BEEB /* AppDelegate.swift */; };
 		4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E825852EE200D7BEEB /* SceneDelegate.swift */; };
 		4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED24EC25852EE200D7BEEB /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
 		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
+		4FA3DB672586D42D009585DB /* BoardSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondVC.swift; sourceTree = "<group>"; };
+		4FA3DB682586D42D009585DB /* BoardSecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardSecondVC.xib; sourceTree = "<group>"; };
 		4FED24E325852EE200D7BEEB /* Keto_Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keto_Diet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FED24E625852EE200D7BEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FED24E825852EE200D7BEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA3DB652586D3FC009585DB /* BoardSecond */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3DB682586D42D009585DB /* BoardSecondVC.xib */,
+			);
+			path = BoardSecond;
+			sourceTree = "<group>";
+		};
+		4FA3DB662586D410009585DB /* BoardSecond */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3DB672586D42D009585DB /* BoardSecondVC.swift */,
+			);
+			path = BoardSecond;
+			sourceTree = "<group>";
+		};
 		4FED24DA25852EE200D7BEEB = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				4FED25192585412F00D7BEEB /* ViewController.swift */,
+				4FA3DB662586D410009585DB /* BoardSecond */,
 				4FED2506258538C400D7BEEB /* Board */,
 			);
 			path = Controller;
@@ -151,6 +172,7 @@
 		4FED25012585377B00D7BEEB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4FA3DB652586D3FC009585DB /* BoardSecond */,
 				4FED2507258538CE00D7BEEB /* Board */,
 			);
 			path = Views;
@@ -283,6 +305,7 @@
 				4F46153025869C2900887451 /* BoardCVC.xib in Resources */,
 				4FED24F025852EE500D7BEEB /* Assets.xcassets in Resources */,
 				4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */,
+				4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +364,7 @@
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,
 				4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */,
 				4FED25292585452100D7BEEB /* Constants.swift in Sources */,
+				4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
