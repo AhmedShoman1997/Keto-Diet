@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F46152B25869A7100887451 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152925869A7100887451 /* BoardVC.swift */; };
+		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
+		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
+		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
+		4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E625852EE200D7BEEB /* AppDelegate.swift */; };
+		4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E825852EE200D7BEEB /* SceneDelegate.swift */; };
+		4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED24EC25852EE200D7BEEB /* Main.storyboard */; };
+		4FED24F025852EE500D7BEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FED24EF25852EE500D7BEEB /* Assets.xcassets */; };
+		4FED24F325852EE500D7BEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED24F125852EE500D7BEEB /* LaunchScreen.storyboard */; };
+		4FED251A2585412F00D7BEEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED25192585412F00D7BEEB /* ViewController.swift */; };
+		4FED25292585452100D7BEEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED25282585452100D7BEEB /* Constants.swift */; };
+		F90476C4579C40129BAC4E7F /* Pods_Keto_Diet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364615D2D3B383ACFFB8CF32 /* Pods_Keto_Diet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		364615D2D3B383ACFFB8CF32 /* Pods_Keto_Diet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keto_Diet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F46152925869A7100887451 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
+		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
+		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
+		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
+		4FED24E325852EE200D7BEEB /* Keto_Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keto_Diet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FED24E625852EE200D7BEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FED24E825852EE200D7BEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FED24ED25852EE200D7BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FED24EF25852EE500D7BEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FED24F225852EE500D7BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FED24F425852EE500D7BEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FED251525853E5000D7BEEB /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		4FED251625853E5000D7BEEB /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
+		4FED251725853E5000D7BEEB /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		4FED251825853E5000D7BEEB /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4FED25192585412F00D7BEEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FED25282585452100D7BEEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5712F4A8B99B4BC358D1D5F6 /* Pods-Keto_Diet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto_Diet.release.xcconfig"; path = "Target Support Files/Pods-Keto_Diet/Pods-Keto_Diet.release.xcconfig"; sourceTree = "<group>"; };
+		6C05F811D10B8B3A706E03F1 /* Pods-Keto_Diet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keto_Diet.debug.xcconfig"; path = "Target Support Files/Pods-Keto_Diet/Pods-Keto_Diet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FED24E025852EE200D7BEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90476C4579C40129BAC4E7F /* Pods_Keto_Diet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FED24DA25852EE200D7BEEB = {
+			isa = PBXGroup;
+			children = (
+				4FED25272585450800D7BEEB /* Constants */,
+				4FED251125853E1A00D7BEEB /* Resources */,
+				4FED24FA2585371000D7BEEB /* Cores */,
+				4FED24FF2585375700D7BEEB /* Extentation */,
+				4FED24FE2585374E00D7BEEB /* Helper */,
+				4FED24FD2585373100D7BEEB /* Controller */,
+				4FED24FC2585372C00D7BEEB /* View */,
+				4FED24FB2585372500D7BEEB /* Model */,
+				4FED24E525852EE200D7BEEB /* Keto_Diet */,
+				4FED24E425852EE200D7BEEB /* Products */,
+				E0666FB0756AF8F1738D9F9E /* Pods */,
+				EDBB599CD88B0E4948797A6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FED24E425852EE200D7BEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FED24E325852EE200D7BEEB /* Keto_Diet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FED24E525852EE200D7BEEB /* Keto_Diet */ = {
+			isa = PBXGroup;
+			children = (
+				4FED24EF25852EE500D7BEEB /* Assets.xcassets */,
+				4FED24F125852EE500D7BEEB /* LaunchScreen.storyboard */,
+				4FED24F425852EE500D7BEEB /* Info.plist */,
+			);
+			path = Keto_Diet;
+			sourceTree = "<group>";
+		};
+		4FED24FA2585371000D7BEEB /* Cores */ = {
+			isa = PBXGroup;
+			children = (
+				4FED24E625852EE200D7BEEB /* AppDelegate.swift */,
+				4FED24E825852EE200D7BEEB /* SceneDelegate.swift */,
+			);
+			path = Cores;
+			sourceTree = "<group>";
+		};
+		4FED24FB2585372500D7BEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FED24FC2585372C00D7BEEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FED25002585376E00D7BEEB /* Storyboard */,
+				4FED25012585377B00D7BEEB /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FED24FD2585373100D7BEEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FED25192585412F00D7BEEB /* ViewController.swift */,
+				4FED2506258538C400D7BEEB /* Board */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FED24FE2585374E00D7BEEB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4FED24FF2585375700D7BEEB /* Extentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentation;
+			sourceTree = "<group>";
+		};
+		4FED25002585376E00D7BEEB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4FED24EC25852EE200D7BEEB /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4FED25012585377B00D7BEEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FED2507258538CE00D7BEEB /* Board */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FED2506258538C400D7BEEB /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				4F46152925869A7100887451 /* BoardVC.swift */,
+				4F46152D25869C2900887451 /* BoardCVC.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		4FED2507258538CE00D7BEEB /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				4F46152A25869A7100887451 /* BoardVC.xib */,
+				4F46152E25869C2900887451 /* BoardCVC.xib */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		4FED251125853E1A00D7BEEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FED251225853E2400D7BEEB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FED251225853E2400D7BEEB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4FED251525853E5000D7BEEB /* Almarai-Bold.ttf */,
+				4FED251825853E5000D7BEEB /* Almarai-ExtraBold.ttf */,
+				4FED251625853E5000D7BEEB /* Almarai-Light.ttf */,
+				4FED251725853E5000D7BEEB /* Almarai-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4FED25272585450800D7BEEB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4FED25282585452100D7BEEB /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E0666FB0756AF8F1738D9F9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C05F811D10B8B3A706E03F1 /* Pods-Keto_Diet.debug.xcconfig */,
+				5712F4A8B99B4BC358D1D5F6 /* Pods-Keto_Diet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDBB599CD88B0E4948797A6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				364615D2D3B383ACFFB8CF32 /* Pods_Keto_Diet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FED24E225852EE200D7BEEB /* Keto_Diet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FED24F725852EE500D7BEEB /* Build configuration list for PBXNativeTarget "Keto_Diet" */;
+			buildPhases = (
+				E7C8101F78F81BAE9EDD2D25 /* [CP] Check Pods Manifest.lock */,
+				4FED24DF25852EE200D7BEEB /* Sources */,
+				4FED24E025852EE200D7BEEB /* Frameworks */,
+				4FED24E125852EE200D7BEEB /* Resources */,
+				E5D0EA426A75E5C6FCD7DE5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keto_Diet;
+			productName = Keto_Diet;
+			productReference = 4FED24E325852EE200D7BEEB /* Keto_Diet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FED24DB25852EE200D7BEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ahmed Shoman";
+				TargetAttributes = {
+					4FED24E225852EE200D7BEEB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 4FED24DE25852EE200D7BEEB /* Build configuration list for PBXProject "Keto_Diet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FED24DA25852EE200D7BEEB;
+			productRefGroup = 4FED24E425852EE200D7BEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FED24E225852EE200D7BEEB /* Keto_Diet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FED24E125852EE200D7BEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FED24F325852EE500D7BEEB /* LaunchScreen.storyboard in Resources */,
+				4F46152C25869A7100887451 /* BoardVC.xib in Resources */,
+				4F46153025869C2900887451 /* BoardCVC.xib in Resources */,
+				4FED24F025852EE500D7BEEB /* Assets.xcassets in Resources */,
+				4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5D0EA426A75E5C6FCD7DE5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keto_Diet/Pods-Keto_Diet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keto_Diet/Pods-Keto_Diet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Keto_Diet/Pods-Keto_Diet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C8101F78F81BAE9EDD2D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keto_Diet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FED24DF25852EE200D7BEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FED251A2585412F00D7BEEB /* ViewController.swift in Sources */,
+				4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */,
+				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
+				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,
+				4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */,
+				4FED25292585452100D7BEEB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FED24EC25852EE200D7BEEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FED24ED25852EE200D7BEEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FED24F125852EE500D7BEEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FED24F225852EE500D7BEEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FED24F525852EE500D7BEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FED24F625852EE500D7BEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FED24F825852EE500D7BEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C05F811D10B8B3A706E03F1 /* Pods-Keto_Diet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Keto_Diet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shoman.Keto-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FED24F925852EE500D7BEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5712F4A8B99B4BC358D1D5F6 /* Pods-Keto_Diet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Keto_Diet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shoman.Keto-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FED24DE25852EE200D7BEEB /* Build configuration list for PBXProject "Keto_Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FED24F525852EE500D7BEEB /* Debug */,
+				4FED24F625852EE500D7BEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FED24F725852EE500D7BEEB /* Build configuration list for PBXNativeTarget "Keto_Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FED24F825852EE500D7BEEB /* Debug */,
+				4FED24F925852EE500D7BEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FED24DB25852EE200D7BEEB /* Project object */;
+}

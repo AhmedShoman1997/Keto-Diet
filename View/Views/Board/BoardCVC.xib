@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BoardCVC" customModule="Keto_Diet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="305" height="207"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="305" height="207"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nM6-S0-cmp">
+                        <rect key="frame" x="0.0" y="0.0" width="305" height="207"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="معلومة ١ عن الابلكيشن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fh2-1y-9UR">
+                                <rect key="frame" x="21.5" y="40" width="262.5" height="29.5"/>
+                                <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="26"/>
+                                <color key="textColor" red="0.0039216880689999997" green="0.0039213537240000004" blue="0.0039215800350000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUu-TB-vt8">
+                                <rect key="frame" x="18" y="75" width="269.5" height="57"/>
+                                <string key="text">يتم هنا اضافه وصف للمعلومة المذكورة
+اعلاه، على ان تكون مكونه من ثلاث
+اسطر.</string>
+                                <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="17"/>
+                                <color key="textColor" red="0.72942179439999999" green="0.72939389939999999" blue="0.72941279410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fh2-1y-9UR" firstAttribute="top" secondItem="nM6-S0-cmp" secondAttribute="top" constant="40" id="AZZ-DZ-5lI"/>
+                            <constraint firstItem="fh2-1y-9UR" firstAttribute="centerX" secondItem="nM6-S0-cmp" secondAttribute="centerX" id="QjC-Ig-0TF"/>
+                            <constraint firstItem="YUu-TB-vt8" firstAttribute="centerX" secondItem="nM6-S0-cmp" secondAttribute="centerX" id="VXc-LH-mWM"/>
+                            <constraint firstItem="YUu-TB-vt8" firstAttribute="centerY" secondItem="nM6-S0-cmp" secondAttribute="centerY" id="gE0-w1-l1K"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nM6-S0-cmp" secondAttribute="trailing" id="8RL-Pr-WB6"/>
+                <constraint firstItem="nM6-S0-cmp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RRc-cb-Akf"/>
+                <constraint firstAttribute="bottom" secondItem="nM6-S0-cmp" secondAttribute="bottom" id="S3s-PP-O3a"/>
+                <constraint firstItem="nM6-S0-cmp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="f9r-7j-eeu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="305" height="207"/>
+            <connections>
+                <outlet property="titleLabel" destination="fh2-1y-9UR" id="JKm-j2-ghp"/>
+            </connections>
+            <point key="canvasLocation" x="322.46376811594206" y="71.986607142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>
