@@ -16,6 +16,8 @@
             <connections>
                 <outlet property="backView" destination="HXu-rc-lKN" id="i0Y-3O-59M"/>
                 <outlet property="buttonView" destination="ajv-4b-Prt" id="1F6-4O-Gvw"/>
+                <outlet property="collectionView" destination="h5X-V4-AyD" id="ybI-bh-gYj"/>
+                <outlet property="pageControl" destination="8mY-L3-a7h" id="ZNy-bT-aka"/>
                 <outlet property="view" destination="bHl-Ra-9g5" id="PZE-MY-hNh"/>
             </connections>
         </placeholder>
@@ -29,7 +31,36 @@
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXu-rc-lKN">
                     <rect key="frame" x="0.0" y="448" width="414" height="448"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="h5X-V4-AyD">
+                            <rect key="frame" x="10" y="10" width="394" height="428"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MmM-bP-D5Y">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Var-Pt-K3U"/>
+                                <outlet property="delegate" destination="-1" id="Skr-Ji-pw9"/>
+                            </connections>
+                        </collectionView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="8mY-L3-a7h">
+                            <rect key="frame" x="187.5" y="401" width="39" height="37"/>
+                            <color key="pageIndicatorTintColor" red="0.88628643750000002" green="0.88625305889999995" blue="0.88627570870000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="currentPageIndicatorTintColor" red="0.279395014" green="0.5947220325" blue="0.3921273649" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </pageControl>
+                    </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="h5X-V4-AyD" secondAttribute="trailing" constant="10" id="FZP-9b-O1G"/>
+                        <constraint firstItem="8mY-L3-a7h" firstAttribute="centerX" secondItem="h5X-V4-AyD" secondAttribute="centerX" id="Q30-bS-POa"/>
+                        <constraint firstItem="8mY-L3-a7h" firstAttribute="bottom" secondItem="h5X-V4-AyD" secondAttribute="bottom" id="gqa-t3-nS4"/>
+                        <constraint firstItem="h5X-V4-AyD" firstAttribute="top" secondItem="HXu-rc-lKN" secondAttribute="top" constant="10" id="q98-fu-7KC"/>
+                        <constraint firstItem="h5X-V4-AyD" firstAttribute="leading" secondItem="HXu-rc-lKN" secondAttribute="leading" constant="10" id="vVB-ow-f7I"/>
+                        <constraint firstAttribute="bottom" secondItem="h5X-V4-AyD" secondAttribute="bottom" constant="10" id="ym3-K2-rgC"/>
+                    </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajv-4b-Prt">
                     <rect key="frame" x="332" y="64" width="62" height="62"/>
