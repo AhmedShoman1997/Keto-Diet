@@ -11,6 +11,10 @@
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
 		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
+		4F6BDD1725879EF500D294C3 /* WeightCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BDD1525879EF500D294C3 /* WeightCVCell.swift */; };
+		4F6BDD1825879EF500D294C3 /* WeightCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BDD1625879EF500D294C3 /* WeightCVCell.xib */; };
+		4F6BDD1B2587A3A100D294C3 /* HeightCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BDD192587A3A100D294C3 /* HeightCVCell.swift */; };
+		4F6BDD1C2587A3A100D294C3 /* HeightCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6BDD1A2587A3A100D294C3 /* HeightCVCell.xib */; };
 		4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3DB672586D42D009585DB /* BoardSecondVC.swift */; };
 		4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3DB682586D42D009585DB /* BoardSecondVC.xib */; };
 		4FB1E3AB2586E2B2005A7E79 /* BoardSecondCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */; };
@@ -31,6 +35,10 @@
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
 		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
+		4F6BDD1525879EF500D294C3 /* WeightCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCVCell.swift; sourceTree = "<group>"; };
+		4F6BDD1625879EF500D294C3 /* WeightCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightCVCell.xib; sourceTree = "<group>"; };
+		4F6BDD192587A3A100D294C3 /* HeightCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCVCell.swift; sourceTree = "<group>"; };
+		4F6BDD1A2587A3A100D294C3 /* HeightCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeightCVCell.xib; sourceTree = "<group>"; };
 		4FA3DB672586D42D009585DB /* BoardSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondVC.swift; sourceTree = "<group>"; };
 		4FA3DB682586D42D009585DB /* BoardSecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardSecondVC.xib; sourceTree = "<group>"; };
 		4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondCVCell.swift; sourceTree = "<group>"; };
@@ -64,11 +72,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6BDD1325879EC200D294C3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4F6BDD1525879EF500D294C3 /* WeightCVCell.swift */,
+				4F6BDD192587A3A100D294C3 /* HeightCVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4F6BDD1425879EDC00D294C3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4F6BDD1625879EF500D294C3 /* WeightCVCell.xib */,
+				4F6BDD1A2587A3A100D294C3 /* HeightCVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		4FA3DB652586D3FC009585DB /* BoardSecond */ = {
 			isa = PBXGroup;
 			children = (
 				4FA3DB682586D42D009585DB /* BoardSecondVC.xib */,
 				4FB1E3AA2586E2B2005A7E79 /* BoardSecondCVCell.xib */,
+				4F6BDD1425879EDC00D294C3 /* Cells */,
 			);
 			path = BoardSecond;
 			sourceTree = "<group>";
@@ -78,6 +105,7 @@
 			children = (
 				4FA3DB672586D42D009585DB /* BoardSecondVC.swift */,
 				4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */,
+				4F6BDD1325879EC200D294C3 /* Cells */,
 			);
 			path = BoardSecond;
 			sourceTree = "<group>";
@@ -308,8 +336,10 @@
 			files = (
 				4FED24F325852EE500D7BEEB /* LaunchScreen.storyboard in Resources */,
 				4F46152C25869A7100887451 /* BoardVC.xib in Resources */,
+				4F6BDD1825879EF500D294C3 /* WeightCVCell.xib in Resources */,
 				4F46153025869C2900887451 /* BoardCVC.xib in Resources */,
 				4FB1E3AC2586E2B2005A7E79 /* BoardSecondCVCell.xib in Resources */,
+				4F6BDD1C2587A3A100D294C3 /* HeightCVCell.xib in Resources */,
 				4FED24F025852EE500D7BEEB /* Assets.xcassets in Resources */,
 				4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */,
 				4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */,
@@ -366,7 +396,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FED251A2585412F00D7BEEB /* ViewController.swift in Sources */,
+				4F6BDD1725879EF500D294C3 /* WeightCVCell.swift in Sources */,
 				4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */,
+				4F6BDD1B2587A3A100D294C3 /* HeightCVCell.swift in Sources */,
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,
 				4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */,
