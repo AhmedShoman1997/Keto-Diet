@@ -5,6 +5,8 @@ target 'Keto_Diet' do
   use_frameworks!
 
   # Pods for Keto_Diet
-	pod 'LXPageControl'
+	pod 'Alamofire'
+  pod 'SwiftyJSON' 
+  
 
 end

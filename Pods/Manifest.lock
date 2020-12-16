@@ -1,16 +1,20 @@
 PODS:
-  - LXPageControl (1.0.0)
+  - Alamofire (5.2.2)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
-  - LXPageControl
+  - Alamofire
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
-    - LXPageControl
+    - Alamofire
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  LXPageControl: 9da4a6318158faf7c472fb7bb80113d9ce8707ca
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 3ea5482a0eb1bd6dd07b04f75e5afb0573335082
+PODFILE CHECKSUM: 89d43c19e1fae4a5b860e9af69d02d7b0bb8a96e
 
 COCOAPODS: 1.9.1
