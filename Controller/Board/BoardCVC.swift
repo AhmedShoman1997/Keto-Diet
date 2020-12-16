@@ -10,7 +10,6 @@ import UIKit
 
 class BoardCVC: UICollectionViewCell {
 
-    let a = [0,1,2]
     @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

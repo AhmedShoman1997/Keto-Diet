@@ -10,7 +10,9 @@ import UIKit
 
 class BoardSecondVC: UIViewController {
     let questions = ["انت؟","عندك كام سنه؟","وزنك؟","طولك؟"]
+    let nums = ["0","1","2","3"]
     var currentIndex = 0
+    
    
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var buttonView: UIView!{
@@ -36,6 +38,7 @@ extension BoardSecondVC: UICollectionViewDelegate,UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BoardSecondCVCell", for: indexPath) as! BoardSecondCVCell
+        
         cell.questionLabel.text = questions[indexPath.row]
         pageControl.numberOfPages = questions.count
         return cell
@@ -43,7 +46,13 @@ extension BoardSecondVC: UICollectionViewDelegate,UICollectionViewDataSource{
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         currentIndex = Int(scrollView.contentOffset.x / collectionView.frame.width)
         pageControl.currentPage = currentIndex
-    }
+        let vc = BoardSecondCVCell()
+        vc.currentIndexPath = currentIndex
+        
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "notCenter"), object: nil, userInfo: ["indexPath" : currentIndex])
+            }
+    
 }
 extension BoardSecondVC: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
