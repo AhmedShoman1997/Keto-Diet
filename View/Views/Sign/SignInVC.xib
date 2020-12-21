@@ -18,6 +18,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInVC" customModule="Keto_Diet" customModuleProvider="target">
             <connections>
                 <outlet property="backView" destination="Z9z-bO-hWL" id="kp5-gt-mQg"/>
+                <outlet property="fullNameTF" destination="fjp-dx-2nx" id="6ed-lz-utz"/>
+                <outlet property="passwordTF" destination="3Kf-vj-BOa" id="hzC-XQ-n52"/>
                 <outlet property="signInButton" destination="0Ln-J3-bm1" id="WeM-To-BNl"/>
                 <outlet property="view" destination="RmO-R2-dnH" id="Gsv-ae-YFh"/>
             </connections>
@@ -42,38 +44,38 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="البريد الإلكتروني او رقم الموبايل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTh-aS-Cz9">
-                            <rect key="frame" x="175.5" y="166.5" width="214.5" height="23.5"/>
+                            <rect key="frame" x="142" y="166.5" width="248" height="22.5"/>
                             <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3I-xH-WvG">
-                            <rect key="frame" x="20.5" y="243.5" width="373" height="0.5"/>
+                            <rect key="frame" x="20.5" y="241.5" width="373" height="0.5"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="0.5" id="qvc-Jo-dDG"/>
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ادخل كلمه المرور" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVm-IS-9dT">
-                            <rect key="frame" x="277.5" y="264" width="112.5" height="23.5"/>
+                            <rect key="frame" x="251" y="262" width="139" height="22.5"/>
                             <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="*********" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Kf-vj-BOa">
-                            <rect key="frame" x="313.5" y="303.5" width="76.5" height="29.5"/>
+                            <rect key="frame" x="307" y="300.5" width="83" height="27"/>
                             <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="24"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L20-QJ-9yS">
-                            <rect key="frame" x="20.5" y="345" width="373" height="0.5"/>
+                            <rect key="frame" x="20.5" y="339.5" width="373" height="0.5"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="0.5" id="K7N-Vb-Jh9"/>
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ln-J3-bm1">
-                            <rect key="frame" x="20.5" y="375.5" width="373" height="60.5"/>
+                            <rect key="frame" x="20.5" y="370" width="373" height="60.5"/>
                             <color key="backgroundColor" red="0.32270348069999999" green="0.66148251300000005" blue="0.45487302540000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <fontDescription key="fontDescription" type="system" pointSize="23"/>
                             <state key="normal" title="تسجيل الدخول">
@@ -81,7 +83,7 @@
                             </state>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="hbs-Yz-Vf8">
-                            <rect key="frame" x="95" y="456" width="224" height="30"/>
+                            <rect key="frame" x="95" y="450.5" width="224" height="30"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYu-ZR-QKc">
                                     <rect key="frame" x="0.0" y="0.0" width="111" height="30"/>
@@ -101,9 +103,9 @@
                             </constraints>
                         </stackView>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ادم احمد" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fjp-dx-2nx">
-                            <rect key="frame" x="314.5" y="202" width="75.5" height="29.5"/>
+                            <rect key="frame" x="307" y="201" width="83" height="28.5"/>
                             <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="24"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تسجيل الدخول" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saV-Sx-hzJ">
                             <rect key="frame" x="113.5" y="45" width="187.5" height="32.5"/>
@@ -112,11 +114,33 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXD-Hq-ui3">
-                            <rect key="frame" x="159.5" y="546" width="95" height="36"/>
+                            <rect key="frame" x="159.5" y="540.5" width="95" height="36"/>
                             <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="21"/>
                             <state key="normal" title="تخطى الان">
                                 <color key="titleColor" red="0.105705224" green="0.53963387009999997" blue="0.34899252650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7M-Ej-rDg">
+                            <rect key="frame" x="20.5" y="198.5" width="34" height="33.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="q7M-Ej-rDg" secondAttribute="height" multiplier="1:1" id="kbo-zh-liA"/>
+                            </constraints>
+                            <color key="tintColor" red="0.68236225839999998" green="0.68233615160000005" blue="0.68235379460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" image="delete.right.fill" catalog="system"/>
+                            <connections>
+                                <action selector="clearAll:" destination="-1" eventType="touchUpInside" id="4Nb-TI-dw5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zer-be-ijo">
+                            <rect key="frame" x="20.5" y="297" width="34" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Zer-be-ijo" secondAttribute="height" multiplier="1:1" id="FFM-er-dgf"/>
+                            </constraints>
+                            <color key="tintColor" red="0.68236225839999998" green="0.68233615160000005" blue="0.68235379460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <state key="normal" image="eye.fill" catalog="system"/>
+                            <connections>
+                                <action selector="togglePassword:" destination="-1" eventType="touchUpInside" id="yoh-Hl-q1c"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -124,9 +148,13 @@
                         <constraint firstItem="0Ln-J3-bm1" firstAttribute="top" secondItem="L20-QJ-9yS" secondAttribute="bottom" constant="30" id="1tl-Um-hgx"/>
                         <constraint firstItem="saV-Sx-hzJ" firstAttribute="top" secondItem="Z9z-bO-hWL" secondAttribute="top" constant="45" id="20b-Ez-GC6"/>
                         <constraint firstItem="LVm-IS-9dT" firstAttribute="top" secondItem="b3I-xH-WvG" secondAttribute="bottom" constant="20" id="3SL-t4-BKp"/>
+                        <constraint firstItem="q7M-Ej-rDg" firstAttribute="height" secondItem="Z9z-bO-hWL" secondAttribute="height" multiplier="0.05" id="5YA-eN-chi"/>
+                        <constraint firstItem="Zer-be-ijo" firstAttribute="leading" secondItem="q7M-Ej-rDg" secondAttribute="leading" id="7CP-Gi-mEi"/>
                         <constraint firstItem="0Ln-J3-bm1" firstAttribute="width" secondItem="Z9z-bO-hWL" secondAttribute="width" multiplier="0.9" id="7Wf-gd-ayS"/>
                         <constraint firstItem="zuS-lF-o5b" firstAttribute="top" secondItem="saV-Sx-hzJ" secondAttribute="bottom" constant="20" id="8yM-gT-0Vf"/>
+                        <constraint firstItem="Zer-be-ijo" firstAttribute="height" secondItem="q7M-Ej-rDg" secondAttribute="height" id="Evx-Bb-rmP"/>
                         <constraint firstItem="LVm-IS-9dT" firstAttribute="top" secondItem="b3I-xH-WvG" secondAttribute="bottom" constant="20" id="HAR-bM-pyx"/>
+                        <constraint firstItem="Zer-be-ijo" firstAttribute="width" secondItem="Zer-be-ijo" secondAttribute="height" multiplier="1:1" id="Mm4-5o-bYM"/>
                         <constraint firstItem="fjp-dx-2nx" firstAttribute="trailing" secondItem="RTh-aS-Cz9" secondAttribute="trailing" id="MmR-nR-iBW"/>
                         <constraint firstItem="b3I-xH-WvG" firstAttribute="centerX" secondItem="Z9z-bO-hWL" secondAttribute="centerX" id="MzD-Qg-5AN"/>
                         <constraint firstItem="hbs-Yz-Vf8" firstAttribute="centerX" secondItem="0Ln-J3-bm1" secondAttribute="centerX" id="Qsz-N1-0WC"/>
@@ -137,9 +165,11 @@
                         <constraint firstItem="L20-QJ-9yS" firstAttribute="top" secondItem="3Kf-vj-BOa" secondAttribute="bottom" constant="12" id="VtA-Zu-yae"/>
                         <constraint firstItem="L20-QJ-9yS" firstAttribute="trailing" secondItem="b3I-xH-WvG" secondAttribute="trailing" id="Xbi-G4-yhY"/>
                         <constraint firstItem="3Kf-vj-BOa" firstAttribute="trailing" secondItem="LVm-IS-9dT" secondAttribute="trailing" id="YIV-9I-OXb"/>
+                        <constraint firstItem="q7M-Ej-rDg" firstAttribute="leading" secondItem="L20-QJ-9yS" secondAttribute="leading" id="YuG-gv-a8J"/>
                         <constraint firstItem="b3I-xH-WvG" firstAttribute="top" secondItem="fjp-dx-2nx" secondAttribute="bottom" constant="12" id="Z10-aS-t32"/>
                         <constraint firstItem="zuS-lF-o5b" firstAttribute="centerX" secondItem="saV-Sx-hzJ" secondAttribute="centerX" id="d1b-01-sIT"/>
                         <constraint firstItem="saV-Sx-hzJ" firstAttribute="centerX" secondItem="Z9z-bO-hWL" secondAttribute="centerX" id="dXp-VX-mGU"/>
+                        <constraint firstItem="Zer-be-ijo" firstAttribute="centerY" secondItem="3Kf-vj-BOa" secondAttribute="centerY" id="ee5-Sd-bfP"/>
                         <constraint firstItem="L20-QJ-9yS" firstAttribute="centerX" secondItem="b3I-xH-WvG" secondAttribute="centerX" id="fXg-40-MRj"/>
                         <constraint firstAttribute="trailing" secondItem="RTh-aS-Cz9" secondAttribute="trailing" constant="24" id="h2a-a3-pJm"/>
                         <constraint firstItem="hbs-Yz-Vf8" firstAttribute="top" secondItem="0Ln-J3-bm1" secondAttribute="bottom" constant="20" id="hXe-sq-ZQc"/>
@@ -150,6 +180,7 @@
                         <constraint firstItem="PXD-Hq-ui3" firstAttribute="top" secondItem="hbs-Yz-Vf8" secondAttribute="bottom" constant="60" id="oNv-nn-SJo"/>
                         <constraint firstItem="b3I-xH-WvG" firstAttribute="width" secondItem="Z9z-bO-hWL" secondAttribute="width" multiplier="0.9" id="rKh-Ks-Zzg"/>
                         <constraint firstItem="L20-QJ-9yS" firstAttribute="leading" secondItem="b3I-xH-WvG" secondAttribute="leading" id="rz7-As-sN1"/>
+                        <constraint firstItem="q7M-Ej-rDg" firstAttribute="centerY" secondItem="fjp-dx-2nx" secondAttribute="centerY" id="zG1-tc-cf2"/>
                     </constraints>
                 </view>
             </subviews>
@@ -170,5 +201,7 @@
     </objects>
     <resources>
         <image name="bk1" width="375" height="592"/>
+        <image name="delete.right.fill" catalog="system" width="128" height="104"/>
+        <image name="eye.fill" catalog="system" width="128" height="78"/>
     </resources>
 </document>

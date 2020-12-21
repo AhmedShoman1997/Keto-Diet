@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F0BA4D6258A465600453CCA /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA4D4258A465600453CCA /* SignInVC.swift */; };
 		4F0BA4D7258A465600453CCA /* SignInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0BA4D5258A465600453CCA /* SignInVC.xib */; };
+		4F0BA4F9258A696F00453CCA /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA4F8258A696F00453CCA /* Register.swift */; };
+		4F0BA4FC258A6EF300453CCA /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BA4FB258A6EF300453CCA /* BaseAPI.swift */; };
 		4F46152B25869A7100887451 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152925869A7100887451 /* BoardVC.swift */; };
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
@@ -33,6 +35,12 @@
 		364615D2D3B383ACFFB8CF32 /* Pods_Keto_Diet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keto_Diet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0BA4D4258A465600453CCA /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		4F0BA4D5258A465600453CCA /* SignInVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInVC.xib; sourceTree = "<group>"; };
+		4F0BA4F8258A696F00453CCA /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		4F0BA4FB258A6EF300453CCA /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		4F0BA4FE258ACFD600453CCA /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		4F0BA4FF258ACFD600453CCA /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		4F0BA500258ACFD600453CCA /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
+		4F0BA501258ACFD600453CCA /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
 		4F46152925869A7100887451 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
@@ -48,7 +56,6 @@
 		4FED24EF25852EE500D7BEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FED24F225852EE500D7BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FED24F425852EE500D7BEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FED251525853E5000D7BEEB /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
 		4FED25192585412F00D7BEEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FED25282585452100D7BEEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4FED9452258947A3000520CF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -69,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0BA4FA258A6EB800453CCA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				4F0BA4FB258A6EF300453CCA /* BaseAPI.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		4FA3DB652586D3FC009585DB /* BoardSecond */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +105,7 @@
 		4FED24DA25852EE200D7BEEB = {
 			isa = PBXGroup;
 			children = (
+				4F0BA4FA258A6EB800453CCA /* Extention */,
 				4FED25272585450800D7BEEB /* Constants */,
 				4FED251125853E1A00D7BEEB /* Resources */,
 				4FED24FA2585371000D7BEEB /* Cores */,
@@ -135,6 +151,7 @@
 		4FED24FB2585372500D7BEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F0BA4F8258A696F00453CCA /* Register.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,7 +237,10 @@
 		4FED251225853E2400D7BEEB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4FED251525853E5000D7BEEB /* Almarai-Bold.ttf */,
+				4F0BA4FE258ACFD600453CCA /* Almarai-Bold.ttf */,
+				4F0BA501258ACFD600453CCA /* Almarai-ExtraBold.ttf */,
+				4F0BA500258ACFD600453CCA /* Almarai-Light.ttf */,
+				4F0BA4FF258ACFD600453CCA /* Almarai-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -390,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FED251A2585412F00D7BEEB /* ViewController.swift in Sources */,
+				4F0BA4F9258A696F00453CCA /* Register.swift in Sources */,
 				4FED9454258947A3000520CF /* SignUpVC.swift in Sources */,
 				4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */,
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
@@ -397,6 +418,7 @@
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,
 				4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */,
 				4FED25292585452100D7BEEB /* Constants.swift in Sources */,
+				4F0BA4FC258A6EF300453CCA /* BaseAPI.swift in Sources */,
 				4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */,
 				4FB1E3AB2586E2B2005A7E79 /* BoardSecondCVCell.swift in Sources */,
 			);

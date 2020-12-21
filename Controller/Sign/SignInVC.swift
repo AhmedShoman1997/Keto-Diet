@@ -9,6 +9,7 @@
 import UIKit
 
 class SignInVC: UIViewController {
+    var iconClick = true
     @IBOutlet weak var backView: UIView!{
         didSet{
             backView.layer.cornerRadius = 35
@@ -20,21 +21,25 @@ class SignInVC: UIViewController {
             signInButton.layer.cornerRadius = 15
         }
     }
+    
+    @IBOutlet weak var fullNameTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+     @IBAction func clearAll(_ sender: UIButton) {
+            fullNameTF.text = ""
+        }
+        
+        @IBAction func togglePassword(_ sender: UIButton) {
+            if(iconClick == true) {
+                passwordTF.isSecureTextEntry = false
+            } else {
+                passwordTF.isSecureTextEntry = true
+            }
 
-        // Do any additional setup after loading the view.
+            iconClick = !iconClick
+        }
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
