@@ -109,8 +109,6 @@
 				4FED25272585450800D7BEEB /* Constants */,
 				4FED251125853E1A00D7BEEB /* Resources */,
 				4FED24FA2585371000D7BEEB /* Cores */,
-				4FED24FF2585375700D7BEEB /* Extentation */,
-				4FED24FE2585374E00D7BEEB /* Helper */,
 				4FED24FD2585373100D7BEEB /* Controller */,
 				4FED24FC2585372C00D7BEEB /* View */,
 				4FED24FB2585372500D7BEEB /* Model */,
@@ -174,20 +172,6 @@
 				4FED2506258538C400D7BEEB /* Board */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		4FED24FE2585374E00D7BEEB /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		4FED24FF2585375700D7BEEB /* Extentation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extentation;
 			sourceTree = "<group>";
 		};
 		4FED25002585376E00D7BEEB /* Storyboard */ = {
