@@ -40,10 +40,10 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="595"/>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHw-S4-ocQ">
-                            <rect key="frame" x="0.0" y="533" width="320" height="357"/>
+                            <rect key="frame" x="0.0" y="394" width="320" height="476"/>
                             <subviews>
                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="z3q-LG-yGh">
-                                    <rect key="frame" x="20" y="20" width="280" height="297"/>
+                                    <rect key="frame" x="20" y="20" width="280" height="446"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XQy-ob-E4g">
                                         <size key="itemSize" width="128" height="128"/>
@@ -57,7 +57,7 @@
                                     </connections>
                                 </collectionView>
                                 <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="CfU-I3-LwE">
-                                    <rect key="frame" x="140.5" y="280" width="39" height="37"/>
+                                    <rect key="frame" x="140.5" y="429" width="39" height="37"/>
                                     <color key="pageIndicatorTintColor" red="0.88628643750000002" green="0.88625305889999995" blue="0.88627570870000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="currentPageIndicatorTintColor" red="0.29515144230000001" green="0.62620013949999997" blue="0.41565573220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </pageControl>
@@ -65,8 +65,8 @@
                             <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="CfU-I3-LwE" firstAttribute="centerX" secondItem="z3q-LG-yGh" secondAttribute="centerX" id="0kE-tG-JKa"/>
-                                <constraint firstAttribute="bottom" secondItem="CfU-I3-LwE" secondAttribute="bottom" constant="40" id="Fwb-D7-LS1"/>
                                 <constraint firstItem="z3q-LG-yGh" firstAttribute="top" secondItem="IHw-S4-ocQ" secondAttribute="top" constant="20" id="QbB-lY-PN1"/>
+                                <constraint firstAttribute="bottom" secondItem="CfU-I3-LwE" secondAttribute="bottom" constant="10" id="nxN-uZ-iJc"/>
                                 <constraint firstItem="z3q-LG-yGh" firstAttribute="leading" secondItem="IHw-S4-ocQ" secondAttribute="leading" constant="20" id="ouN-8T-9bV"/>
                                 <constraint firstItem="CfU-I3-LwE" firstAttribute="bottom" secondItem="z3q-LG-yGh" secondAttribute="bottom" id="vOg-Yp-mcf"/>
                                 <constraint firstAttribute="trailing" secondItem="z3q-LG-yGh" secondAttribute="trailing" constant="20" id="zTf-BT-XL1"/>
@@ -96,10 +96,10 @@
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="VK3-Tp-aP6" secondAttribute="bottom" id="7Db-5z-GLj"/>
-                        <constraint firstAttribute="bottom" secondItem="IHw-S4-ocQ" secondAttribute="bottom" constant="-40" id="BMW-sR-UI1"/>
                         <constraint firstItem="y7l-eg-f6N" firstAttribute="height" secondItem="VK3-Tp-aP6" secondAttribute="height" multiplier="0.7" id="G64-Rr-67g"/>
                         <constraint firstItem="VK3-Tp-aP6" firstAttribute="width" secondItem="afA-Y5-J7g" secondAttribute="width" id="I4o-85-8xx"/>
                         <constraint firstItem="y7l-eg-f6N" firstAttribute="top" secondItem="afA-Y5-J7g" secondAttribute="top" id="IVM-Pv-Cxk"/>
+                        <constraint firstAttribute="bottom" secondItem="IHw-S4-ocQ" secondAttribute="bottom" constant="-20" id="KJ5-A6-liW"/>
                         <constraint firstAttribute="trailing" secondItem="y7l-eg-f6N" secondAttribute="trailing" id="KpQ-1K-hto"/>
                         <constraint firstItem="5az-hc-aZB" firstAttribute="top" secondItem="afA-Y5-J7g" secondAttribute="top" constant="20" id="PUU-2J-NgN"/>
                         <constraint firstAttribute="trailing" secondItem="VK3-Tp-aP6" secondAttribute="trailing" id="SGi-2Z-u0p"/>
@@ -107,7 +107,7 @@
                         <constraint firstItem="IHw-S4-ocQ" firstAttribute="leading" secondItem="afA-Y5-J7g" secondAttribute="leading" id="USx-ql-fc4"/>
                         <constraint firstAttribute="trailing" secondItem="IHw-S4-ocQ" secondAttribute="trailing" id="cNF-k3-oCf"/>
                         <constraint firstItem="VK3-Tp-aP6" firstAttribute="leading" secondItem="afA-Y5-J7g" secondAttribute="leading" id="iAg-jC-Fwb"/>
-                        <constraint firstItem="IHw-S4-ocQ" firstAttribute="height" secondItem="y7l-eg-f6N" secondAttribute="height" multiplier="0.6" id="l4n-fy-Tr3"/>
+                        <constraint firstItem="IHw-S4-ocQ" firstAttribute="height" secondItem="y7l-eg-f6N" secondAttribute="height" multiplier="0.8" id="l4n-fy-Tr3"/>
                         <constraint firstItem="VK3-Tp-aP6" firstAttribute="top" secondItem="afA-Y5-J7g" secondAttribute="top" id="rFT-jy-o0Q"/>
                         <constraint firstItem="5az-hc-aZB" firstAttribute="height" secondItem="y7l-eg-f6N" secondAttribute="height" multiplier="0.0988836" id="ujU-sc-zci"/>
                         <constraint firstItem="y7l-eg-f6N" firstAttribute="leading" secondItem="afA-Y5-J7g" secondAttribute="leading" id="yE3-Yq-lFh"/>

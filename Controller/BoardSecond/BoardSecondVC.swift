@@ -25,10 +25,17 @@ class BoardSecondVC: UIViewController {
             backView.layer.cornerRadius = 35
         }
     }
+    
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.register(UINib(nibName: "BoardSecondCVCell", bundle: nil), forCellWithReuseIdentifier: "BoardSecondCVCell")
+    }
+    
+    @IBAction func skipButton(_ sender: UIButton) {
+        let signUp = SignUpVC()
+        signUp.modalPresentationStyle = .fullScreen
+        self.present(signUp, animated: true, completion: nil)
     }
 }
 extension BoardSecondVC: UICollectionViewDelegate,UICollectionViewDataSource{
