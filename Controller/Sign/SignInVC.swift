@@ -18,17 +18,17 @@ class SignInVC: UIViewController {
     
     @IBOutlet weak var signInButton: UIButton!{
         didSet{
-            signInButton.layer.cornerRadius = 15
+            signInButton.layer.cornerRadius = 10
         }
     }
     
-    @IBOutlet weak var fullNameTF: UITextField!
+    @IBOutlet weak var EmailTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
      @IBAction func clearAll(_ sender: UIButton) {
-            fullNameTF.text = ""
+            EmailTF.text = ""
         }
         
         @IBAction func togglePassword(_ sender: UIButton) {

@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func setBaseRoot() {
-        let VC = SignUpVC()
+        let VC = BoardVC()
         window?.rootViewController = VC
     }
 }

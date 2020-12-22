@@ -20,9 +20,9 @@ class BoardVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     
-    @IBOutlet weak var buttonView: UIView!{
+    @IBOutlet weak var skipButton: UIView!{
         didSet{
-            buttonView.layer.cornerRadius = buttonView.frame.height / 2
+            skipButton.layer.cornerRadius = skipButton.frame.height / 2
         }
     }
     override func viewDidLoad() {

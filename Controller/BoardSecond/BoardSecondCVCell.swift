@@ -10,7 +10,6 @@ import UIKit
 
 class BoardSecondCVCell: UICollectionViewCell {
     
-//    var titles = ["ahmed","mohamed","doaa","sara","mama","mona"]
     var age = [String]()
     var weight = [String]()
     var height = [String]()
@@ -25,8 +24,6 @@ class BoardSecondCVCell: UICollectionViewCell {
         super.awakeFromNib()
         pickerViewSetUp()
         fillArray()
-//        assignIndexPath()
-        
     }
     func pickerViewSetUp()  {
         rotationAngle = -90 * (.pi / 180)
@@ -44,13 +41,6 @@ class BoardSecondCVCell: UICollectionViewCell {
             height.append("\(i)")
         }
     }
-//    func assignIndexPath() {
-//        NotificationCenter.default.addObserver(self, selector: #selector(doAssign) , name: NSNotification.Name(rawValue: "notCenter"), object: nil)
-//    }
-//    @objc func doAssign(_ notify: NSNotification){
-//        currentIndexPath = notify.userInfo!["indexPath"] as? Int
-//    }
-
 }
 extension BoardSecondCVCell: UIPickerViewDataSource,UIPickerViewDelegate{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -58,15 +48,6 @@ extension BoardSecondCVCell: UIPickerViewDataSource,UIPickerViewDelegate{
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-
-//        if currentIndexPath == 0{
-//            return titles.count
-//        }else if currentIndexPath == 1{
-//            return age.count
-//        }else if currentIndexPath == 2{
-//            return weight.count
-//        }
-//            return height.count
         return age.count
         
     }
