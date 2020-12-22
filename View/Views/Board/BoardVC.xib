@@ -76,7 +76,7 @@
                             <rect key="frame" x="241" y="20" width="59" height="59"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a12-CJ-YNg">
-                                    <rect key="frame" x="8.5" y="14.5" width="42" height="30"/>
+                                    <rect key="frame" x="11.5" y="14" width="36" height="31"/>
                                     <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="16"/>
                                     <state key="normal" title="تخطي">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
