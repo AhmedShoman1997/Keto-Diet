@@ -13,11 +13,12 @@ class MainTableTableVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "ImageSliderTVCell", bundle: nil), forCellReuseIdentifier: "ImageSliderTVCell")
+        title = "الرئيسية"
+        
     }
     
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
         return 1
     }
     
@@ -29,7 +30,7 @@ class MainTableTableVC: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return SCREENHEIGHT / 3
+        return SCREENHEIGHT / 4
     }
 }
 

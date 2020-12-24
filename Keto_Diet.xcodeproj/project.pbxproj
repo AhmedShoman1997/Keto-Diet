@@ -16,6 +16,8 @@
 		4F0D28A42594B89400BA65EE /* ImageSliderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D28A22594B89400BA65EE /* ImageSliderTVCell.xib */; };
 		4F0D28A72594BA1500BA65EE /* ImageSliderCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D28A52594BA1500BA65EE /* ImageSliderCVCell.swift */; };
 		4F0D28A82594BA1500BA65EE /* ImageSliderCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D28A62594BA1500BA65EE /* ImageSliderCVCell.xib */; };
+		4F0D28AD2594FBB400BA65EE /* BaseNAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D28AC2594FBB400BA65EE /* BaseNAV.swift */; };
+		4F0D28AF2594FC8300BA65EE /* BaseTAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */; };
 		4F46152B25869A7100887451 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152925869A7100887451 /* BoardVC.swift */; };
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
@@ -52,6 +54,8 @@
 		4F0D28A22594B89400BA65EE /* ImageSliderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSliderTVCell.xib; sourceTree = "<group>"; };
 		4F0D28A52594BA1500BA65EE /* ImageSliderCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCVCell.swift; sourceTree = "<group>"; };
 		4F0D28A62594BA1500BA65EE /* ImageSliderCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSliderCVCell.xib; sourceTree = "<group>"; };
+		4F0D28AC2594FBB400BA65EE /* BaseNAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNAV.swift; sourceTree = "<group>"; };
+		4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTAB.swift; sourceTree = "<group>"; };
 		4F46152925869A7100887451 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
@@ -122,6 +126,15 @@
 				4F0D28A62594BA1500BA65EE /* ImageSliderCVCell.xib */,
 			);
 			path = ImageSlider;
+			sourceTree = "<group>";
+		};
+		4F0D28AB2594FB8000BA65EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D28AC2594FBB400BA65EE /* BaseNAV.swift */,
+				4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		4F9DF5BC2590DA290042AE1A /* API */ = {
@@ -223,6 +236,7 @@
 		4FED24FD2585373100D7BEEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4F0D28AB2594FB8000BA65EE /* Base */,
 				4FED2506258538C400D7BEEB /* Board */,
 				4FA3DB662586D410009585DB /* BoardSecond */,
 				4FED945025894760000520CF /* Sign */,
@@ -462,6 +476,8 @@
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
 				4F0BA4D6258A465600453CCA /* SignInVC.swift in Sources */,
 				4F9DF5C12590E0430042AE1A /* Config.swift in Sources */,
+				4F0D28AF2594FC8300BA65EE /* BaseTAB.swift in Sources */,
+				4F0D28AD2594FBB400BA65EE /* BaseNAV.swift in Sources */,
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,
 				4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */,
 				4F0D289B2594B5A600BA65EE /* MainTableTableVC.swift in Sources */,

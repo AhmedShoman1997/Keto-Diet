@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func setBaseRoot() {
-        let VC = MainTableTableVC()
+        let VC = BaseTAB()
         window?.rootViewController = VC
     }
 }

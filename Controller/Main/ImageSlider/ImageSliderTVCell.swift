@@ -10,13 +10,32 @@ import UIKit
 
 class ImageSliderTVCell: UITableViewCell {
 
+    let sliders = [#imageLiteral(resourceName: "mask"),#imageLiteral(resourceName: "mask"),#imageLiteral(resourceName: "mask")]
+    var currentIndex = 0
+    var timer = Timer()
+    
+    @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        setupUI()
+    }
+    func setupUI() {
         collectionView.register(UINib(nibName: "ImageSliderCVCell", bundle: nil), forCellWithReuseIdentifier: "ImageSliderCVCell")
+        pageControl.numberOfPages = sliders.count
+        pageControl.currentPage = currentIndex
+        
+        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(goToNext), userInfo: nil, repeats: true)
+    }
+    @objc func goToNext() {
+        currentIndex = (currentIndex != sliders.count-1) ? (currentIndex+1) : 0
+        collectionView.scrollToItem(at: IndexPath(item: currentIndex, section: 0), at: .centeredHorizontally, animated: true)
+        pageControl.currentPage = currentIndex
     }
 }
+
 extension ImageSliderTVCell: UICollectionViewDelegate,UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 3

@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="252" height="206"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدول الكيتو جدول الكيتو جدول الكيتو جدول الكيتو  جدول الكيتو " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhU-Ui-TRX">
-                                <rect key="frame" x="10" y="145" width="232" height="41"/>
+                                <rect key="frame" x="10" y="140" width="232" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="iA8-Z7-5CJ" secondAttribute="bottom" id="FSO-tc-UaX"/>
-                            <constraint firstAttribute="bottom" secondItem="YhU-Ui-TRX" secondAttribute="bottom" constant="20" id="Gwb-8i-4eT"/>
+                            <constraint firstAttribute="bottom" secondItem="YhU-Ui-TRX" secondAttribute="bottom" constant="25" id="Gwb-8i-4eT"/>
                             <constraint firstItem="iA8-Z7-5CJ" firstAttribute="leading" secondItem="6BE-hS-lLI" secondAttribute="leading" id="HXj-mD-FC3"/>
                             <constraint firstAttribute="trailing" secondItem="YhU-Ui-TRX" secondAttribute="trailing" constant="10" id="KDR-Fc-Toy"/>
                             <constraint firstItem="iA8-Z7-5CJ" firstAttribute="top" secondItem="6BE-hS-lLI" secondAttribute="top" id="LND-UN-5J6"/>
@@ -60,6 +60,7 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="262" height="216"/>
             <connections>
+                <outlet property="maskImageView" destination="iA8-Z7-5CJ" id="tGs-6h-Vqo"/>
                 <outlet property="rectangleImageView" destination="VcT-xS-j0v" id="9td-eg-8dq"/>
             </connections>
             <point key="canvasLocation" x="136" y="110"/>
