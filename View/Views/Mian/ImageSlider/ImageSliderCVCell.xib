@@ -62,6 +62,7 @@
             <connections>
                 <outlet property="maskImageView" destination="iA8-Z7-5CJ" id="tGs-6h-Vqo"/>
                 <outlet property="rectangleImageView" destination="VcT-xS-j0v" id="9td-eg-8dq"/>
+                <outlet property="titleLabel" destination="YhU-Ui-TRX" id="0au-fS-xPY"/>
             </connections>
             <point key="canvasLocation" x="136" y="110"/>
         </collectionViewCell>

@@ -7,6 +7,6 @@ target 'Keto_Diet' do
   # Pods for Keto_Diet
 	pod 'Alamofire'
   pod 'SwiftyJSON' 
-  
+  pod 'AlamofireImage'
 
 end

@@ -10,6 +10,7 @@ import UIKit
 
 class ImageSliderCVCell: UICollectionViewCell {
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var maskImageView: UIImageView!{
         didSet{
             maskImageView.layer.cornerRadius = 10

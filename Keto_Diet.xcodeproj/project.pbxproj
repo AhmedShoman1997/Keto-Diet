@@ -22,6 +22,7 @@
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
 		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
+		4F96470C259620AD008E060A /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96470B259620AD008E060A /* ImageSlider.swift */; };
 		4F9DF5BE2590DA450042AE1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5BD2590DA450042AE1A /* API.swift */; };
 		4F9DF5C12590E0430042AE1A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5C02590E0430042AE1A /* Config.swift */; };
 		4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3DB672586D42D009585DB /* BoardSecondVC.swift */; };
@@ -60,6 +61,7 @@
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
 		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
+		4F96470B259620AD008E060A /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
 		4F9DF5BD2590DA450042AE1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4F9DF5C02590E0430042AE1A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		4FA3DB672586D42D009585DB /* BoardSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondVC.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0BA4F8258A696F00453CCA /* Register.swift */,
+				4F96470B259620AD008E060A /* ImageSlider.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
 				4F0BA4D6258A465600453CCA /* SignInVC.swift in Sources */,
 				4F9DF5C12590E0430042AE1A /* Config.swift in Sources */,
+				4F96470C259620AD008E060A /* ImageSlider.swift in Sources */,
 				4F0D28AF2594FC8300BA65EE /* BaseTAB.swift in Sources */,
 				4F0D28AD2594FBB400BA65EE /* BaseNAV.swift in Sources */,
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,

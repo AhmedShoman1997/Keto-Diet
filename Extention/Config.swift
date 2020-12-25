@@ -13,4 +13,5 @@ struct URLs{
     
     static let register = base + "register"
     static let login = base + "login"
+    static let slider = base + "home/slider"
 }
