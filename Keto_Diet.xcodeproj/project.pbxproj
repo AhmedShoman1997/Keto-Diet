@@ -23,6 +23,8 @@
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
 		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
 		4F96470C259620AD008E060A /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96470B259620AD008E060A /* ImageSlider.swift */; };
+		4F96470F2596ABB4008E060A /* KetoTableTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */; };
+		4F9647102596ABB4008E060A /* KetoTableTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */; };
 		4F9DF5BE2590DA450042AE1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5BD2590DA450042AE1A /* API.swift */; };
 		4F9DF5C12590E0430042AE1A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5C02590E0430042AE1A /* Config.swift */; };
 		4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3DB672586D42D009585DB /* BoardSecondVC.swift */; };
@@ -62,6 +64,8 @@
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
 		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
 		4F96470B259620AD008E060A /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoTableTVCell.swift; sourceTree = "<group>"; };
+		4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KetoTableTVCell.xib; sourceTree = "<group>"; };
 		4F9DF5BD2590DA450042AE1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4F9DF5C02590E0430042AE1A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		4FA3DB672586D42D009585DB /* BoardSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondVC.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			children = (
 				4F0D289A2594B5A600BA65EE /* MainTableTableVC.xib */,
 				4F0D28A02594B85B00BA65EE /* ImageSlider */,
+				4F9647122596ABE4008E060A /* KetoTable */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			children = (
 				4F0D28992594B5A600BA65EE /* MainTableTableVC.swift */,
 				4F0D289F2594B83100BA65EE /* ImageSlider */,
+				4F9647112596ABC3008E060A /* KetoTable */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -137,6 +143,22 @@
 				4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		4F9647112596ABC3008E060A /* KetoTable */ = {
+			isa = PBXGroup;
+			children = (
+				4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */,
+			);
+			path = KetoTable;
+			sourceTree = "<group>";
+		};
+		4F9647122596ABE4008E060A /* KetoTable */ = {
+			isa = PBXGroup;
+			children = (
+				4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */,
+			);
+			path = KetoTable;
 			sourceTree = "<group>";
 		};
 		4F9DF5BC2590DA290042AE1A /* API */ = {
@@ -417,6 +439,7 @@
 				4F0D289C2594B5A600BA65EE /* MainTableTableVC.xib in Resources */,
 				4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */,
 				4F0D28A82594BA1500BA65EE /* ImageSliderCVCell.xib in Resources */,
+				4F9647102596ABB4008E060A /* KetoTableTVCell.xib in Resources */,
 				4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */,
 				4F0D28A42594B89400BA65EE /* ImageSliderTVCell.xib in Resources */,
 			);
@@ -474,6 +497,7 @@
 				4F0D28A72594BA1500BA65EE /* ImageSliderCVCell.swift in Sources */,
 				4F0BA4F9258A696F00453CCA /* Register.swift in Sources */,
 				4FED9454258947A3000520CF /* SignUpVC.swift in Sources */,
+				4F96470F2596ABB4008E060A /* KetoTableTVCell.swift in Sources */,
 				4F0D28A32594B89400BA65EE /* ImageSliderTVCell.swift in Sources */,
 				4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */,
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,

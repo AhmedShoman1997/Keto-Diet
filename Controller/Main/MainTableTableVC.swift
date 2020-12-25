@@ -12,25 +12,38 @@ class MainTableTableVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "ImageSliderTVCell", bundle: nil), forCellReuseIdentifier: "ImageSliderTVCell")
+        
         title = "الرئيسية"
         
     }
     
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ImageSliderTVCell", for: indexPath) as! ImageSliderTVCell
-        return cell
+        if indexPath.section == 0{
+            tableView.register(UINib(nibName: "ImageSliderTVCell", bundle: nil), forCellReuseIdentifier: "ImageSliderTVCell")
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ImageSliderTVCell", for: indexPath) as! ImageSliderTVCell
+            return cell
+        }else{
+            tableView.register(UINib(nibName: "KetoTableTVCell", bundle: nil), forCellReuseIdentifier: "KetoTableTVCell")
+            let cell = tableView.dequeueReusableCell(withIdentifier: "KetoTableTVCell", for: indexPath) as! KetoTableTVCell
+            return cell
+        }
+        
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return SCREENHEIGHT / 4
+        if indexPath.section == 0{
+            return SCREENHEIGHT / 4
+        }else{
+            return SCREENHEIGHT / 6
+        }
+        
     }
 }
 
