@@ -18,25 +18,22 @@
 		4F0D28A82594BA1500BA65EE /* ImageSliderCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D28A62594BA1500BA65EE /* ImageSliderCVCell.xib */; };
 		4F0D28AD2594FBB400BA65EE /* BaseNAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D28AC2594FBB400BA65EE /* BaseNAV.swift */; };
 		4F0D28AF2594FC8300BA65EE /* BaseTAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */; };
+		4F42EC252599396A00E72E8E /* KetoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC232599396A00E72E8E /* KetoTVCell.swift */; };
+		4F42EC262599396A00E72E8E /* KetoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F42EC242599396A00E72E8E /* KetoTVCell.xib */; };
+		4F42EC2925993A7400E72E8E /* KetoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC2725993A7400E72E8E /* KetoCVCell.swift */; };
+		4F42EC2A25993A7400E72E8E /* KetoCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F42EC2825993A7400E72E8E /* KetoCVCell.xib */; };
+		4F42EC2E259943C600E72E8E /* KetoHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC2D259943C600E72E8E /* KetoHome.swift */; };
 		4F46152B25869A7100887451 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152925869A7100887451 /* BoardVC.swift */; };
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
 		4F46153025869C2900887451 /* BoardCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152E25869C2900887451 /* BoardCVC.xib */; };
 		4F96470C259620AD008E060A /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96470B259620AD008E060A /* ImageSlider.swift */; };
-		4F96470F2596ABB4008E060A /* KetoTableTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */; };
-		4F9647102596ABB4008E060A /* KetoTableTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */; };
 		4F9DF5BE2590DA450042AE1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5BD2590DA450042AE1A /* API.swift */; };
 		4F9DF5C12590E0430042AE1A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF5C02590E0430042AE1A /* Config.swift */; };
 		4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3DB672586D42D009585DB /* BoardSecondVC.swift */; };
 		4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FA3DB682586D42D009585DB /* BoardSecondVC.xib */; };
 		4FB1E3AB2586E2B2005A7E79 /* BoardSecondCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */; };
 		4FB1E3AC2586E2B2005A7E79 /* BoardSecondCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1E3AA2586E2B2005A7E79 /* BoardSecondCVCell.xib */; };
-		4FECC99B2597CAB3008504AC /* cellForFourTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC9992597CAB3008504AC /* cellForFourTVCell.swift */; };
-		4FECC99C2597CAB3008504AC /* cellForFourTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FECC99A2597CAB3008504AC /* cellForFourTVCell.xib */; };
-		4FECC99F2597CB9E008504AC /* cellForFourCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC99D2597CB9E008504AC /* cellForFourCVCell.swift */; };
-		4FECC9A02597CB9E008504AC /* cellForFourCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FECC99E2597CB9E008504AC /* cellForFourCVCell.xib */; };
-		4FECC9A62597E6A8008504AC /* CellForTwoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC9A42597E6A8008504AC /* CellForTwoTVCell.swift */; };
-		4FECC9A72597E6A8008504AC /* CellForTwoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FECC9A52597E6A8008504AC /* CellForTwoTVCell.xib */; };
 		4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E625852EE200D7BEEB /* AppDelegate.swift */; };
 		4FED24E925852EE200D7BEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED24E825852EE200D7BEEB /* SceneDelegate.swift */; };
 		4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FED24EC25852EE200D7BEEB /* Main.storyboard */; };
@@ -65,25 +62,22 @@
 		4F0D28A62594BA1500BA65EE /* ImageSliderCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSliderCVCell.xib; sourceTree = "<group>"; };
 		4F0D28AC2594FBB400BA65EE /* BaseNAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNAV.swift; sourceTree = "<group>"; };
 		4F0D28AE2594FC8300BA65EE /* BaseTAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTAB.swift; sourceTree = "<group>"; };
+		4F42EC232599396A00E72E8E /* KetoTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoTVCell.swift; sourceTree = "<group>"; };
+		4F42EC242599396A00E72E8E /* KetoTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KetoTVCell.xib; sourceTree = "<group>"; };
+		4F42EC2725993A7400E72E8E /* KetoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoCVCell.swift; sourceTree = "<group>"; };
+		4F42EC2825993A7400E72E8E /* KetoCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KetoCVCell.xib; sourceTree = "<group>"; };
+		4F42EC2D259943C600E72E8E /* KetoHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoHome.swift; sourceTree = "<group>"; };
 		4F46152925869A7100887451 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
 		4F46152E25869C2900887451 /* BoardCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCVC.xib; sourceTree = "<group>"; };
 		4F96470B259620AD008E060A /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
-		4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoTableTVCell.swift; sourceTree = "<group>"; };
-		4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KetoTableTVCell.xib; sourceTree = "<group>"; };
 		4F9DF5BD2590DA450042AE1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4F9DF5C02590E0430042AE1A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		4FA3DB672586D42D009585DB /* BoardSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondVC.swift; sourceTree = "<group>"; };
 		4FA3DB682586D42D009585DB /* BoardSecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardSecondVC.xib; sourceTree = "<group>"; };
 		4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSecondCVCell.swift; sourceTree = "<group>"; };
 		4FB1E3AA2586E2B2005A7E79 /* BoardSecondCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardSecondCVCell.xib; sourceTree = "<group>"; };
-		4FECC9992597CAB3008504AC /* cellForFourTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellForFourTVCell.swift; sourceTree = "<group>"; };
-		4FECC99A2597CAB3008504AC /* cellForFourTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellForFourTVCell.xib; sourceTree = "<group>"; };
-		4FECC99D2597CB9E008504AC /* cellForFourCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellForFourCVCell.swift; sourceTree = "<group>"; };
-		4FECC99E2597CB9E008504AC /* cellForFourCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellForFourCVCell.xib; sourceTree = "<group>"; };
-		4FECC9A42597E6A8008504AC /* CellForTwoTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForTwoTVCell.swift; sourceTree = "<group>"; };
-		4FECC9A52597E6A8008504AC /* CellForTwoTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForTwoTVCell.xib; sourceTree = "<group>"; };
 		4FED24E325852EE200D7BEEB /* Keto_Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keto_Diet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FED24E625852EE200D7BEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FED24E825852EE200D7BEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,10 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				4F0D289A2594B5A600BA65EE /* MainTableTableVC.xib */,
+				4F42EC1C259938CE00E72E8E /* CellsInCollection */,
 				4F0D28A02594B85B00BA65EE /* ImageSlider */,
-				4F9647122596ABE4008E060A /* KetoTable */,
-				4FECC9982597C425008504AC /* CellForFour */,
-				4FECC9A32597E684008504AC /* CellForTwo */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -126,10 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				4F0D28992594B5A600BA65EE /* MainTableTableVC.swift */,
+				4F42EC1B259938A200E72E8E /* CellsInCollection */,
 				4F0D289F2594B83100BA65EE /* ImageSlider */,
-				4F9647112596ABC3008E060A /* KetoTable */,
-				4FECC9932597C3E5008504AC /* CellForFour */,
-				4FECC9A22597E66C008504AC /* CellForTwo */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -161,20 +151,22 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		4F9647112596ABC3008E060A /* KetoTable */ = {
+		4F42EC1B259938A200E72E8E /* CellsInCollection */ = {
 			isa = PBXGroup;
 			children = (
-				4F96470D2596ABB4008E060A /* KetoTableTVCell.swift */,
+				4F42EC232599396A00E72E8E /* KetoTVCell.swift */,
+				4F42EC2725993A7400E72E8E /* KetoCVCell.swift */,
 			);
-			path = KetoTable;
+			path = CellsInCollection;
 			sourceTree = "<group>";
 		};
-		4F9647122596ABE4008E060A /* KetoTable */ = {
+		4F42EC1C259938CE00E72E8E /* CellsInCollection */ = {
 			isa = PBXGroup;
 			children = (
-				4F96470E2596ABB4008E060A /* KetoTableTVCell.xib */,
+				4F42EC242599396A00E72E8E /* KetoTVCell.xib */,
+				4F42EC2825993A7400E72E8E /* KetoCVCell.xib */,
 			);
-			path = KetoTable;
+			path = CellsInCollection;
 			sourceTree = "<group>";
 		};
 		4F9DF5BC2590DA290042AE1A /* API */ = {
@@ -209,40 +201,6 @@
 				4FB1E3A92586E2B2005A7E79 /* BoardSecondCVCell.swift */,
 			);
 			path = BoardSecond;
-			sourceTree = "<group>";
-		};
-		4FECC9932597C3E5008504AC /* CellForFour */ = {
-			isa = PBXGroup;
-			children = (
-				4FECC9992597CAB3008504AC /* cellForFourTVCell.swift */,
-				4FECC99D2597CB9E008504AC /* cellForFourCVCell.swift */,
-			);
-			path = CellForFour;
-			sourceTree = "<group>";
-		};
-		4FECC9982597C425008504AC /* CellForFour */ = {
-			isa = PBXGroup;
-			children = (
-				4FECC99A2597CAB3008504AC /* cellForFourTVCell.xib */,
-				4FECC99E2597CB9E008504AC /* cellForFourCVCell.xib */,
-			);
-			path = CellForFour;
-			sourceTree = "<group>";
-		};
-		4FECC9A22597E66C008504AC /* CellForTwo */ = {
-			isa = PBXGroup;
-			children = (
-				4FECC9A42597E6A8008504AC /* CellForTwoTVCell.swift */,
-			);
-			path = CellForTwo;
-			sourceTree = "<group>";
-		};
-		4FECC9A32597E684008504AC /* CellForTwo */ = {
-			isa = PBXGroup;
-			children = (
-				4FECC9A52597E6A8008504AC /* CellForTwoTVCell.xib */,
-			);
-			path = CellForTwo;
 			sourceTree = "<group>";
 		};
 		4FED24DA25852EE200D7BEEB = {
@@ -295,6 +253,7 @@
 			children = (
 				4F0BA4F8258A696F00453CCA /* Register.swift */,
 				4F96470B259620AD008E060A /* ImageSlider.swift */,
+				4F42EC2D259943C600E72E8E /* KetoHome.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -479,20 +438,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FECC9A72597E6A8008504AC /* CellForTwoTVCell.xib in Resources */,
-				4FECC9A02597CB9E008504AC /* cellForFourCVCell.xib in Resources */,
 				4F0BA4D7258A465600453CCA /* SignInVC.xib in Resources */,
 				4FED24F325852EE500D7BEEB /* LaunchScreen.storyboard in Resources */,
 				4F46152C25869A7100887451 /* BoardVC.xib in Resources */,
 				4F46153025869C2900887451 /* BoardCVC.xib in Resources */,
 				4FB1E3AC2586E2B2005A7E79 /* BoardSecondCVCell.xib in Resources */,
-				4FECC99C2597CAB3008504AC /* cellForFourTVCell.xib in Resources */,
 				4FED9455258947A3000520CF /* SignUpVC.xib in Resources */,
 				4FED24F025852EE500D7BEEB /* Assets.xcassets in Resources */,
 				4F0D289C2594B5A600BA65EE /* MainTableTableVC.xib in Resources */,
+				4F42EC262599396A00E72E8E /* KetoTVCell.xib in Resources */,
+				4F42EC2A25993A7400E72E8E /* KetoCVCell.xib in Resources */,
 				4FED24EE25852EE200D7BEEB /* Main.storyboard in Resources */,
 				4F0D28A82594BA1500BA65EE /* ImageSliderCVCell.xib in Resources */,
-				4F9647102596ABB4008E060A /* KetoTableTVCell.xib in Resources */,
 				4FA3DB6A2586D42D009585DB /* BoardSecondVC.xib in Resources */,
 				4F0D28A42594B89400BA65EE /* ImageSliderTVCell.xib in Resources */,
 			);
@@ -550,11 +507,11 @@
 				4F0D28A72594BA1500BA65EE /* ImageSliderCVCell.swift in Sources */,
 				4F0BA4F9258A696F00453CCA /* Register.swift in Sources */,
 				4FED9454258947A3000520CF /* SignUpVC.swift in Sources */,
-				4FECC99B2597CAB3008504AC /* cellForFourTVCell.swift in Sources */,
-				4F96470F2596ABB4008E060A /* KetoTableTVCell.swift in Sources */,
+				4F42EC2925993A7400E72E8E /* KetoCVCell.swift in Sources */,
 				4F0D28A32594B89400BA65EE /* ImageSliderTVCell.swift in Sources */,
 				4FED24E725852EE200D7BEEB /* AppDelegate.swift in Sources */,
 				4F46152B25869A7100887451 /* BoardVC.swift in Sources */,
+				4F42EC252599396A00E72E8E /* KetoTVCell.swift in Sources */,
 				4F0BA4D6258A465600453CCA /* SignInVC.swift in Sources */,
 				4F9DF5C12590E0430042AE1A /* Config.swift in Sources */,
 				4F96470C259620AD008E060A /* ImageSlider.swift in Sources */,
@@ -565,9 +522,8 @@
 				4F0D289B2594B5A600BA65EE /* MainTableTableVC.swift in Sources */,
 				4FED25292585452100D7BEEB /* Constants.swift in Sources */,
 				4FA3DB692586D42D009585DB /* BoardSecondVC.swift in Sources */,
-				4FECC99F2597CB9E008504AC /* cellForFourCVCell.swift in Sources */,
+				4F42EC2E259943C600E72E8E /* KetoHome.swift in Sources */,
 				4F9DF5BE2590DA450042AE1A /* API.swift in Sources */,
-				4FECC9A62597E6A8008504AC /* CellForTwoTVCell.swift in Sources */,
 				4FB1E3AB2586E2B2005A7E79 /* BoardSecondCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
