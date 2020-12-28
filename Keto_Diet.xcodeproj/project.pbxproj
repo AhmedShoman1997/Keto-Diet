@@ -23,6 +23,7 @@
 		4F42EC2925993A7400E72E8E /* KetoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC2725993A7400E72E8E /* KetoCVCell.swift */; };
 		4F42EC2A25993A7400E72E8E /* KetoCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F42EC2825993A7400E72E8E /* KetoCVCell.xib */; };
 		4F42EC2E259943C600E72E8E /* KetoHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC2D259943C600E72E8E /* KetoHome.swift */; };
+		4F42EC3025996E7400E72E8E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F42EC2F25996E7400E72E8E /* Helper.swift */; };
 		4F46152B25869A7100887451 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152925869A7100887451 /* BoardVC.swift */; };
 		4F46152C25869A7100887451 /* BoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F46152A25869A7100887451 /* BoardVC.xib */; };
 		4F46152F25869C2900887451 /* BoardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46152D25869C2900887451 /* BoardCVC.swift */; };
@@ -67,6 +68,7 @@
 		4F42EC2725993A7400E72E8E /* KetoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoCVCell.swift; sourceTree = "<group>"; };
 		4F42EC2825993A7400E72E8E /* KetoCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KetoCVCell.xib; sourceTree = "<group>"; };
 		4F42EC2D259943C600E72E8E /* KetoHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoHome.swift; sourceTree = "<group>"; };
+		4F42EC2F25996E7400E72E8E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4F46152925869A7100887451 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 		4F46152A25869A7100887451 /* BoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardVC.xib; sourceTree = "<group>"; };
 		4F46152D25869C2900887451 /* BoardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCVC.swift; sourceTree = "<group>"; };
@@ -108,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				4F0D289A2594B5A600BA65EE /* MainTableTableVC.xib */,
-				4F42EC1C259938CE00E72E8E /* CellsInCollection */,
 				4F0D28A02594B85B00BA65EE /* ImageSlider */,
+				4F42EC1C259938CE00E72E8E /* CellsInCollection */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -118,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				4F0D28992594B5A600BA65EE /* MainTableTableVC.swift */,
-				4F42EC1B259938A200E72E8E /* CellsInCollection */,
 				4F0D289F2594B83100BA65EE /* ImageSlider */,
+				4F42EC1B259938A200E72E8E /* CellsInCollection */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				4F9DF5C02590E0430042AE1A /* Config.swift */,
+				4F42EC2F25996E7400E72E8E /* Helper.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				4F0BA4D6258A465600453CCA /* SignInVC.swift in Sources */,
 				4F9DF5C12590E0430042AE1A /* Config.swift in Sources */,
 				4F96470C259620AD008E060A /* ImageSlider.swift in Sources */,
+				4F42EC3025996E7400E72E8E /* Helper.swift in Sources */,
 				4F0D28AF2594FC8300BA65EE /* BaseTAB.swift in Sources */,
 				4F0D28AD2594FBB400BA65EE /* BaseNAV.swift in Sources */,
 				4F46152F25869C2900887451 /* BoardCVC.swift in Sources */,

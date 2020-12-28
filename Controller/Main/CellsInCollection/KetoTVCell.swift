@@ -34,7 +34,6 @@ class KetoTVCell: UITableViewCell {
                     guard let data = response.data else { return }
                     self.ketoHomeModel = try JSONDecoder().decode(KetoHome.self, from: data)
                     self.dataHome = (self.ketoHomeModel?.data)!
-                    print(self.dataHome)
                 }catch{
                     print(error.localizedDescription)
                 }
@@ -127,5 +126,14 @@ extension KetoTVCell: UICollectionViewDelegateFlowLayout{
         }
         let height = SCREENHEIGHT / 5
         return CGSize(width: width, height: height)
+    }
+}
+extension KetoTVCell{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.section == 0{
+            print("hjghj")
+        }else{
+            print("iii")
+        }
     }
 }

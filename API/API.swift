@@ -16,7 +16,6 @@ class API:NSObject {
         let urlString = URLs.register
         guard let url = URL(string: urlString) else { return }
         
-        
         let parameters = [
             "full_name": name,
             "mobile_number": phoneNumber,
@@ -35,7 +34,8 @@ class API:NSObject {
             switch response.result{
             case .success(_):
                 let responseJSON = JSON(response.value!)
-                print("token",responseJSON["Data"]["token"])
+                let apiToken = responseJSON["Data"]["token"].stringValue
+                Helper.saveApiToken(token: apiToken)
                 complition(nil, true)
 
             case .failure(_):
@@ -44,37 +44,37 @@ class API:NSObject {
             }
         }
     }
-    class func login(name: String,phoneNumber:String,email:String,password:String,
-                     complition: @ escaping(_ error:Error?,_ success: Bool) -> Void){
-        let urlString = URLs.register
-        guard let url = URL(string: urlString) else { return }
-        
-        
-        let parameters = [
-            "full_name": name,
-            "mobile_number": phoneNumber,
-            "user_type":"user",
-            "password": password,
-            "email" : email,
-            "age" : 23,
-            "height" : 140,
-            "weight" : 100,
-            "gender" : "male"] as [String : Any]
-        
-        let header: HTTPHeaders = ["Content-Type":"application/json","Accept":"application/json","Accept-Language":"ar"]
-        
-        AF.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
-            
-            switch response.result{
-            case .success(_):
-                let responseJSON = JSON(response.value!)
-                print("token",responseJSON["Data"]["token"])
-                complition(nil, true)
-
-            case .failure(_):
-                print(response.error?.localizedDescription ?? "")
-                complition(response.error, false)
-            }
-        }
-    }
+//    class func login(phoneNumber:String,email:String,password:String,
+//                     complition: @ escaping(_ error:Error?,_ success: Bool) -> Void){
+//        let urlString = URLs.register
+//        guard let url = URL(string: urlString) else { return }
+//        
+//        
+//        let parameters = [
+//            "full_name": name,
+//            "mobile_number": phoneNumber,
+//            "user_type":"user",
+//            "password": password,
+//            "email" : email,
+//            "age" : 23,
+//            "height" : 140,
+//            "weight" : 100,
+//            "gender" : "male"] as [String : Any]
+//        
+//        let header: HTTPHeaders = ["Content-Type":"application/json","Accept":"application/json","Accept-Language":"ar"]
+//        
+//        AF.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+//            
+//            switch response.result{
+//            case .success(_):
+//                let responseJSON = JSON(response.value!)
+//                print("token",responseJSON["Data"]["token"])
+//                complition(nil, true)
+//
+//            case .failure(_):
+//                print(response.error?.localizedDescription ?? "")
+//                complition(response.error, false)
+//            }
+//        }
+//    }
 }

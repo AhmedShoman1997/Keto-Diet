@@ -70,7 +70,7 @@
                                             <rect key="frame" x="35" y="218.66666666666669" width="354" height="28"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOl-F6-5fn">
                                             <rect key="frame" x="9" y="257.66666666666669" width="396" height="0.33333333333331439"/>
@@ -89,7 +89,7 @@
                                             <rect key="frame" x="35" y="304.66666666666669" width="354" height="28"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFB-se-KPQ">
                                             <rect key="frame" x="9" y="343.66666666666663" width="396" height="0.66666666666668561"/>
@@ -105,20 +105,20 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="*********" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fc4-ba-CaK">
-                                            <rect key="frame" x="35" y="391" width="354" height="28"/>
+                                            <rect key="frame" x="35" y="391" width="354" height="27"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alA-vU-94j">
-                                            <rect key="frame" x="9" y="430" width="396" height="0.33333333333331439"/>
+                                            <rect key="frame" x="9" y="429" width="396" height="0.33333333333331439"/>
                                             <color key="backgroundColor" red="0.74118661880000003" green="0.74115830660000004" blue="0.74117749929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="0.5" id="EHy-xj-KKA"/>
                                             </constraints>
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGw-1k-x9r">
-                                            <rect key="frame" x="10" y="455.33333333333337" width="394" height="53.333333333333314"/>
+                                            <rect key="frame" x="10" y="454.33333333333337" width="394" height="53.333333333333314"/>
                                             <color key="backgroundColor" red="0.30303022270000002" green="0.64590322970000003" blue="0.42741918559999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <state key="normal" title="تسجيل الدخول">
@@ -129,7 +129,7 @@
                                             </connections>
                                         </button>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="LVg-lj-eAe">
-                                            <rect key="frame" x="88.666666666666671" y="528.66666666666663" width="236.66666666666663" height="28"/>
+                                            <rect key="frame" x="88.666666666666671" y="527.66666666666663" width="236.66666666666663" height="28"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEk-mO-9fj">
                                                     <rect key="frame" x="0.0" y="0.0" width="118" height="28"/>
@@ -159,7 +159,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnK-2I-pdW">
-                                            <rect key="frame" x="8.6666666666666661" y="394.33333333333337" width="21.333333333333336" height="21"/>
+                                            <rect key="frame" x="8.6666666666666661" y="393.66666666666663" width="21.333333333333336" height="21.333333333333314"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="TnK-2I-pdW" secondAttribute="height" multiplier="1:1" id="Egc-NA-KIR"/>
                                             </constraints>

@@ -40,6 +40,11 @@ class SignInVC: UIViewController {
 
             iconClick = !iconClick
         }
+    @IBAction func signUp(_ sender: UIButton) {
+        let vc = SignUpVC()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
     }
+}
 
 

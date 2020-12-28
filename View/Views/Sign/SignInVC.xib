@@ -92,6 +92,9 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="117.5" height="28"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <state key="normal" title="سجل دخول الان"/>
+                                                    <connections>
+                                                        <action selector="signUp:" destination="-1" eventType="touchUpInside" id="sT6-6H-vKO"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لديك حساب؟" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBX-49-EE3">
                                                     <rect key="frame" x="118.5" y="0.0" width="117.5" height="28"/>

@@ -41,10 +41,10 @@ class SignUpVC: UIViewController {
         guard let password = passwordTF.text , !password.isEmpty else { return }
         
         API.register(name: name, phoneNumber: phoneNumber, email: email, password: password) { (error, success) in
-            if success  {
-                
-            }else{
-                
+            if success{
+                let vc = BaseTAB()
+                vc.modalPresentationStyle = .fullScreen
+                self.present(vc, animated: true, completion: nil)
             }
         }
     }

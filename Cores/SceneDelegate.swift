@@ -19,7 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func setBaseRoot() {
-        let VC = BaseTAB()
+        let VC = SignUpVC()
         window?.rootViewController = VC
+//        if Helper.getApiToken() != nil{
+//            let vc = BaseTAB()
+//            window?.rootViewController = vc
+//        }
     }
 }
